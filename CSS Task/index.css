@@ -1,0 +1,55 @@
+p {
+    color: blue;
+}
+.highlight {
+    color: aqua;
+}
+#highlight {
+    color: darkgoldenrod;
+}
+article p {
+    font-style: italic; color: darkgreen;
+}
+nav > ul {
+    list-style-type: none; color: darkolivegreen;
+}
+h2 + p {
+    margin:10px; color: darkblue;
+}
+h3 ~ p {
+    color: brown;
+}
+h3 {
+    color: #6ACCB5; 
+    color: yellow;
+    color: rgb(red, green, blue);
+    color: rgba(red, rgba(0, 128, 0, 0.767), blue, alpha);
+}
+body {
+    background-color: lightseagreen;
+    
+
+
+}
+
+
+p{
+  font-family: "Workbench", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "BLED" 0,
+    "SCAN" 0;
+}
+.highlight {
+    font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+    font-size: 100px;
+    font-weight: 20px;
+}
+#highlight {
+    font-style: italic;
+    line-height: 2.5;
+    letter-spacing: 3px;
+    word-spacing: 3px;
+}

@@ -1,0 +1,21 @@
+p {
+    color : green 
+}
+.highlight {
+    color: pink ;
+}
+#highlight {
+    color: blueviolet;
+}
+article p {
+    font-style: italic; color: aqua;
+}
+nav > ul {
+    list-style-type:none; color: greenyellow;
+}
+h2 + p {
+    margin:10px; color: brown;
+}
+h3 ~ p {
+    color: darkcyan;
+}
